@@ -45,7 +45,7 @@ int main() {
     vec.push_back({20, "Miguel", "Hernandez"});
     vec.push_back({20, "Miguel", "Gutierrez"});
     vec.push_back({10, "Miguel", "Gutierrez"});
-    sort(vec.begin(), vec.end(), cmp);
+    sort(vec.begin(), vec.end(), cmp); // Se agrega el cmp en el sort
     for (ll i = 0; i < vec.size(); i++) {
         cout << "Edad: " << vec[i].edad << " Nombre " << vec[i].nombre << " Apellidos "
              << vec[i].apellidos << endl;
